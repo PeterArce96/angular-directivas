@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectivaNgSwitchComponent implements OnInit {
 
+  mensaje: string = 'success';
+
   constructor() { }
 
   ngOnInit(): void {
